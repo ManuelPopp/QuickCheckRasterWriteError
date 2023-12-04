@@ -45,3 +45,4 @@ Here is an example:
 cd ./py3
 python3 interface.py /directory/containing/tiff/rasters -outfile /path/to/some/table.csv
 ```
+Note that in Windows, the equivalent to `python3` would be `py`.
