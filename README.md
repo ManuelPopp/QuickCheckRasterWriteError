@@ -2,10 +2,10 @@
 ## About
 In this repository, we share code to train a simple CNN on valid and corrupt raster files. We then use the trained model to check folders containing .tif files for raster write errors associated with OOM issues.
 ## Installation
-- Download this repositors as a compressed archive.
+- Download this repository as a compressed archive.
 - Unzip the archive to some place on your harddrive.
 - Optional: Create and activate a virtual environment in Python
-- Install the required Python modules (requirements.text), e.g. using pip as
+- Install the required Python modules (requirements.txt), e.g. using pip as
 `pip install requirements.txt`
 - Create a new Python script similar to `/py3/Examples.py`:
 ```python
