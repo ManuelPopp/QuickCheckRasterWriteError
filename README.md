@@ -37,3 +37,10 @@ In order to also save the output as a .csv table, set a valid file path:
 ```python
 output_file = "/path/to/my/file.csv"
 ```
+## Commandline interface
+The `interface.py` script was added to make the main functionalities accessible from a terminal or from within other languages such as R via system calls.
+
+Here is an example:
+```
+/py3$ python3 interface.py /directory/containing/tiff/rasters -outfile /path/to/some/table.csv
+```
