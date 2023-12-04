@@ -43,6 +43,15 @@ The `interface.py` script was added to make the main functionalities accessible 
 Here is an example:
 ```console
 cd ./py3
-python3 interface.py /directory/containing/tiff/rasters -outfile /path/to/some/table.csv
+python3 interface.py /directory/containing/tiff/rasters --outfile /path/to/some/table.csv
 ```
 Note that in Windows, the equivalent to `python3` would be `py`.
+
+To call it from within an R session:
+```R
+directory = "/directory/containing/tiff/raste"
+output = "/path/to/some/table.csv"
+setwd("./py3")
+cmd <- paste("python3", "interface.py", directory, "--outfile", output)
+system(cmd)
+```
