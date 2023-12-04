@@ -41,6 +41,7 @@ output_file = "/path/to/my/file.csv"
 The `interface.py` script was added to make the main functionalities accessible from a terminal or from within other languages such as R via system calls.
 
 Here is an example:
-```bash
-/py3$ python3 interface.py /directory/containing/tiff/rasters -outfile /path/to/some/table.csv
+```console
+cd ./py3
+python3 interface.py /directory/containing/tiff/rasters -outfile /path/to/some/table.csv
 ```
